@@ -1,0 +1,52 @@
+body {
+  font-family: futura, sans-serif;
+}
+h1 {
+  text-align: center;
+  margin: auto;
+}
+.feature-card-container{
+  display: flex;
+  margin: 20px;
+  justify-content: center;
+}
+.feature-card-container label:hover{
+  border-color: #39538F;
+  box-shadow: 2px 2px 5px #39538F;
+  transition: all 0.2s;
+}
+input[type="checkbox"] {
+  width: 15px;
+  height: 15px;
+  appearance: none;
+  border: 2px solid #0E2E6E;
+  border-radius: 3px;
+  transition: all 0.3s;
+  background-color: white;
+  cursor: pointer;
+  vertical-align: middle;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #39538F;
+  border-color: #39538F;
+  
+}
+
+input[type="checkbox"]:checked::after {
+  content: "✓";
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  line-height: 10px;
+}
+
+label {
+  border: 2px solid #0e2e6e;
+  padding: 30px;
+  margin: 20px;
+  border-radius: 15px;
+}
