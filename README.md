@@ -9,7 +9,9 @@ This repo showcases my learning progress across different areas of web and softw
 
 This repository is organized by certification path:
 
-### 💻 Responsive Web Design
+### Responsive Web Design
+
+### JavaScript Certificate
 
 ---
 
